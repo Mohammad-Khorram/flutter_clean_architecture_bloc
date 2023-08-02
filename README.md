@@ -39,11 +39,11 @@ This is a sample Flutter project CLEAN architecture using BLoC pattern
 
 ## Screenshots
 
-* ![home dark](https://github.com/Mohammad-Khorram/store/tree/main/screenshots/home_dark.png)
-* ![home light](https://github.com/Mohammad-Khorram/store/tree/main/screenshots/home_light.png)
-* ![product_details dark](https://github.com/Mohammad-Khorram/store/tree/main/screenshots/product_details_dark.png)
-* ![product_details light](https://github.com/Mohammad-Khorram/store/tree/main/screenshots/product_details_light.png)
-* ![profile_dark](https://github.com/Mohammad-Khorram/store/tree/main/screenshots/profile_dark.png)
-* ![profile light](https://github.com/Mohammad-Khorram/store/tree/main/screenshots/profile_light.png)
-* ![login dark](https://github.com/Mohammad-Khorram/store/tree/main/screenshots/login_dark.png)
-* ![login light](https://github.com/Mohammad-Khorram/store/tree/main/screenshots/login_light.png)
+* ![home dark](https://github.com/Mohammad-Khorram/Flutter_CLEAN_architecture_using_BLoC/tree/main/screenshots/home_dark.png)
+* ![home light](https://github.com/Mohammad-Khorram/Flutter_CLEAN_architecture_using_BLoC/tree/main/screenshots/home_light.png)
+* ![product_details dark](https://github.com/Mohammad-Khorram/Flutter_CLEAN_architecture_using_BLoC/tree/main/screenshots/product_details_dark.png)
+* ![product_details light](https://github.com/Mohammad-Khorram/Flutter_CLEAN_architecture_using_BLoC/tree/main/screenshots/product_details_light.png)
+* ![profile_dark](https://github.com/Mohammad-Khorram/Flutter_CLEAN_architecture_using_BLoC/tree/main/screenshots/profile_dark.png)
+* ![profile light](https://github.com/Mohammad-Khorram/Flutter_CLEAN_architecture_using_BLoC/tree/main/screenshots/profile_light.png)
+* ![login dark](https://github.com/Mohammad-Khorram/Flutter_CLEAN_architecture_using_BLoC/tree/main/screenshots/login_dark.png)
+* ![login light](https://github.com/Mohammad-Khorram/Flutter_CLEAN_architecture_using_BLoC/tree/main/screenshots/login_light.png)
