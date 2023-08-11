@@ -1,6 +1,5 @@
 class RouteConfig {
   // user
-  // static const register = '/user/auth/register';
   static const login = '/user/auth/login';
   static const profile = '/user/profile';
 

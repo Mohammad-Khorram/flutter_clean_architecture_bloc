@@ -108,7 +108,6 @@ class _LoginViewState extends State<LoginView> {
 
   Widget body() {
     return SingleChildScrollView(
-      physics: const BouncingScrollPhysics(),
       padding: SpacingConfig.s24All,
       child: BlocConsumer<LoginCubit, LoginState>(
         listenWhen: (previousState, currentState) =>

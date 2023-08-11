@@ -6,6 +6,7 @@ import 'package:store/config/boiler/resource_boiler.dart';
 
 class AskView extends StatefulWidget {
   static const String route = '/page/ask';
+
   const AskView({super.key});
 
   @override
@@ -42,13 +43,7 @@ class _AskViewState extends State<AskView> {
   }
 
   Widget title() {
-    return Text(
-      'askTitle'.tr,
-      style: TextStyle(
-        fontSize: SizeConfig.s16.sp,
-        fontWeight: FontWeight.bold,
-      ),
-    );
+    return Text('askTitle'.tr, style: TextStyleConfig.otherTitle);
   }
 
   Widget divide() {
@@ -65,7 +60,7 @@ class _AskViewState extends State<AskView> {
       child: SingleChildScrollView(
         child: Text(
           'askDescription'.tr,
-          style: TextStyle(fontSize: SizeConfig.s13.sp, height: 1.8),
+          style: TextStyleConfig.otherContent,
           textAlign: TextAlign.justify,
         ),
       ),

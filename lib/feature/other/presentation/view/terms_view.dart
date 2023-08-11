@@ -6,6 +6,7 @@ import 'package:store/config/boiler/widget_boiler.dart';
 
 class TermsView extends StatefulWidget {
   static const String route = '/page/terms';
+
   const TermsView({super.key});
 
   @override
@@ -42,13 +43,7 @@ class _TermsViewState extends State<TermsView> {
   }
 
   Widget title() {
-    return Text(
-      'termsTitle'.tr,
-      style: TextStyle(
-        fontSize: SizeConfig.s16.sp,
-        fontWeight: FontWeight.bold,
-      ),
-    );
+    return Text('termsTitle'.tr, style: TextStyleConfig.otherTitle);
   }
 
   Widget divide() {
@@ -65,7 +60,7 @@ class _TermsViewState extends State<TermsView> {
       child: SingleChildScrollView(
         child: Text(
           'termsDescription'.tr,
-          style: TextStyle(fontSize: SizeConfig.s13.sp, height: 1.8),
+          style: TextStyleConfig.otherContent,
           textAlign: TextAlign.justify,
         ),
       ),

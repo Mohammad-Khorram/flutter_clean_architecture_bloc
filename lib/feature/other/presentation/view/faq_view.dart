@@ -6,6 +6,7 @@ import 'package:store/config/boiler/resource_boiler.dart';
 
 class FaqView extends StatefulWidget {
   static const String route = '/page/faq';
+
   const FaqView({super.key});
 
   @override
@@ -42,13 +43,7 @@ class _FaqViewState extends State<FaqView> {
   }
 
   Widget title() {
-    return Text(
-      'faqTitle'.tr,
-      style: TextStyle(
-        fontSize: SizeConfig.s16.sp,
-        fontWeight: FontWeight.bold,
-      ),
-    );
+    return Text('faqTitle'.tr, style: TextStyleConfig.otherTitle);
   }
 
   Widget divide() {
@@ -65,7 +60,7 @@ class _FaqViewState extends State<FaqView> {
       child: SingleChildScrollView(
         child: Text(
           'faqDescription'.tr,
-          style: TextStyle(fontSize: SizeConfig.s13.sp, height: 1.8),
+          style: TextStyleConfig.otherContent,
           textAlign: TextAlign.justify,
         ),
       ),

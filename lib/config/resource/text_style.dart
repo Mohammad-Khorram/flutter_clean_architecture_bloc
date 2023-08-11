@@ -153,4 +153,14 @@ class TextStyleConfig {
     fontSize: SizeConfig.s12.sp,
     fontWeight: FontWeight.bold,
   );
+
+  static final otherTitle = TextStyle(
+    fontSize: SizeConfig.s16.sp,
+    fontWeight: FontWeight.bold,
+  );
+
+  static final otherContent = TextStyle(
+    fontSize: SizeConfig.s13.sp,
+    height: 1.8,
+  );
 }

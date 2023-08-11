@@ -6,6 +6,7 @@ import 'package:store/config/boiler/resource_boiler.dart';
 
 class PrivacyView extends StatefulWidget {
   static const String route = '/page/privacy';
+
   const PrivacyView({super.key});
 
   @override
@@ -42,13 +43,7 @@ class _PrivacyViewState extends State<PrivacyView> {
   }
 
   Widget title() {
-    return Text(
-      'privacyTitle'.tr,
-      style: TextStyle(
-        fontSize: SizeConfig.s16.sp,
-        fontWeight: FontWeight.bold,
-      ),
-    );
+    return Text('privacyTitle'.tr, style: TextStyleConfig.otherTitle);
   }
 
   Widget divide() {
@@ -65,7 +60,7 @@ class _PrivacyViewState extends State<PrivacyView> {
       child: SingleChildScrollView(
         child: Text(
           'privacyDescription'.tr,
-          style: TextStyle(fontSize: SizeConfig.s13.sp, height: 1.8),
+          style: TextStyleConfig.otherContent,
           textAlign: TextAlign.justify,
         ),
       ),
